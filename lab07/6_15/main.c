@@ -14,7 +14,10 @@ int main()
         ile2++;
         n -=2;
     }
-
+    while(n>=1){
+        ile1++;
+        n -=1;
+    }
     printf("%d %d %d\n", ile5, ile2, ile1);
     return 0;
 }
