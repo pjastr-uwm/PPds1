@@ -9,7 +9,7 @@ int main()
         n = -n;
     }
     int cyfra;
-    int sumaCyfr =0;
+    int sumaCyfr=0;
     if (n==0){
         printf("cyfra 0\n");
     }
