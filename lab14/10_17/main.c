@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int findElement(int tab[], int n, int val, int isEqual(int, int)){
+int findElement(int tab[], int n, int val, int (*isEqual)(int, int)){
     for(int i=0;i<n;i++){
         if (isEqual(val, tab[i])==1){
             return i;
