@@ -28,7 +28,6 @@ void rmOdd(char * txt){
 }
 
 void rmOdd2(char * txt){
-    int d = length(txt);
     int i,j=0;
     for(i=0;txt[i] !=0;i++){
         if(i%2==0){
