@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int length(char*txt){
+int length(const char*txt){
     int i=0;
     while(txt[i]!=0){
         i++;
@@ -9,7 +9,7 @@ int length(char*txt){
     return i;
 }
 
-char *toUpperNew(char*txt){
+char *toUpperNew(const char*txt){
     int d = length(txt);
     char * temp = malloc((d+1) * sizeof(char));
     int i;
