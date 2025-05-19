@@ -21,7 +21,7 @@ void showCar(struct Car arg){
     printf("%s %d\n", arg.brand, arg.mileage);
 }
 
-void mileageService(struct Car * p){
+void mileageService(struct Car *p){
     p->mileage +=10000;
 }
 
