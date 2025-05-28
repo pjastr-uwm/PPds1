@@ -17,6 +17,15 @@ int find(struct element * list, int a){
     return 0;
 }
 
+int foo(int tab[], int n, int a){
+    for(int i=0;i<n;i++){
+        if(tab[i] == a){
+            return 1;
+        }
+    }
+    return 0;
+}
+
 int main()
 {
     struct element * list = malloc(sizeof(struct element));
